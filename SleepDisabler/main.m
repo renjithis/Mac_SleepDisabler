@@ -73,7 +73,7 @@ void callback(void * x,io_service_t y,natural_t messageType,void *messageArgumen
             asl_log(NULL, NULL, (ASL_LEVEL_WARNING), "%s", "kIOMessageSystemWillSleep received");
 
 //            IOAllowPowerChange(groot_port,(long)messageArgument);
-//            break;
+            break;
         case kIOMessageCanSystemSleep:
             // Add code to decide whether to allow sleep or not.
             //        IOCancelPowerChange(groot_port,(long)messageArgument);
@@ -83,6 +83,7 @@ void callback(void * x,io_service_t y,natural_t messageType,void *messageArgumen
 
             break;
         case kIOMessageSystemHasPoweredOn:
+            asl_log(NULL, NULL, (ASL_LEVEL_NOTICE), "%s", "System returned from sleep");
             break;
     }
     
