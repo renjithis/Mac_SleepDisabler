@@ -10,6 +10,7 @@
 		460735EE164183BD007990C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 460735ED164183BD007990C2 /* Foundation.framework */; };
 		460735F1164183BD007990C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 460735F0164183BD007990C2 /* main.m */; };
 		460735F5164183BD007990C2 /* SleepDisabler.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 460735F4164183BD007990C2 /* SleepDisabler.1 */; };
+		460735FC16418531007990C2 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 460735FB16418531007990C2 /* IOKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		460735F0164183BD007990C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		460735F3164183BD007990C2 /* SleepDisabler-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SleepDisabler-Prefix.pch"; sourceTree = "<group>"; };
 		460735F4164183BD007990C2 /* SleepDisabler.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = SleepDisabler.1; sourceTree = "<group>"; };
+		460735FB16418531007990C2 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				460735FC16418531007990C2 /* IOKit.framework in Frameworks */,
 				460735EE164183BD007990C2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -48,6 +51,7 @@
 		460735DE164183BD007990C2 = {
 			isa = PBXGroup;
 			children = (
+				460735FB16418531007990C2 /* IOKit.framework */,
 				460735EF164183BD007990C2 /* SleepDisabler */,
 				460735EC164183BD007990C2 /* Frameworks */,
 				460735EA164183BD007990C2 /* Products */,
