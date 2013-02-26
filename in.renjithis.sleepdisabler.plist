@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+        <key>Label</key>
+        <string>in.renjithis.sleepdisabler</string>
+        <key>OnDemand</key>
+        <false/>
+        <key>Program</key>
+        <string>/Users/renjith/bin/SleepDisabler</string>
+        <key>RunAtLoad</key>
+        <true/>
+        <key>ServiceDescription</key>
+        <string>Mac Sleep Disabler - Disables full sleep of the system</string>
+        <key>UserName</key>
+        <string>root</string>
+        <key>WorkingDirectory</key>
+        <string>/Users/renjith/bin</string>
+</dict>
+</plist>
